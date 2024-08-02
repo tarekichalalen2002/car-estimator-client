@@ -90,7 +90,7 @@ function Result() {
         }}
       >
         <p>The estimated price is:</p>
-        <p className="text-gray-600 text-2xl">{estimatedPrice} €</p>
+        <p className="text-gray-600 text-2xl">{parseInt(estimatedPrice)} €</p>
       </motion.div>
     </div>
   );
